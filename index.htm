@@ -49,20 +49,21 @@
         <h3>
 Editor</h3>
 
-<p>This generator is for creating custom enchantments in the console or command block. </p>
+  <p>This generator is for creating custom enchantments in the console or command block. </p>
 
-<p>It is recommended not to over do it on the Looting or Fortune enchantments. It may lag you or if you are in a server, it may lag you and the server.</p>
+  <p>It is recommended not to over do it on the Looting or Fortune enchantments. It may lag you or if you are in a server, it may lag you and the server.</p>
 
-<h2>Step One: Select the Item You Would Like to Enchant.</h3>
-  <select id="itemselect">
-                <option value="none">Select One...</option>
-                <option value="searchbyid">Search by ID</option>
-                <option value="searchbyitem">Search by Item</option>
-            </select>
-            <div id="searchbyid">
-                <div class="searchbyid">
-                    Enter the ID of the item you would like to find. (If you need help finding a item's ID, <a href=http://minecraft-ids.grahamedgecombe.com/>click here</a>.
-                    <input type="text" class="equipment" name="itemid" placeholder="Item ID">
+  <h2>Step One: Select the Item You Would Like to Enchant.</h3>
+    <select id="itemselect">
+        <option value="none">Select One...</option>
+        <option value="searchbyid">Search by ID</option>
+        <option value="searchbyitem">Search by Item</option>
+    </select>
+    <div id="searchbyid">
+        <div class="padding">
+            Enter the ID of the item you would like to find. (If you need help finding a item's ID, <a href=http://minecraft-ids.grahamedgecombe.com/>click here</a>.
+
+            <input type="text" class="equipment" name="itemid" placeholder="Item ID">
 
 <h3>Armor Enchantments</h3>
             <label><input type="checkbox" name="protection">Protection</label><br>
@@ -104,6 +105,7 @@ Editor</h3>
 
 <h2>Your Command</h2>
 <code></code>
+<div id="codeinfo" class="padding"></div>
 
       <footer>
         <span class="ribbon-outer">
