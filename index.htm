@@ -54,30 +54,15 @@ Editor</h3>
 <p>It is recommended not to over do it on the Looting or Fortune enchantments. It may lag you or if you are in a server, it may lag you and the server.</p>
 
 <h2>Step One: Select the Item You Would Like to Enchant.</h3>
-  <select id="equipmode">
+  <select id="itemselect">
                 <option value="none">Select One...</option>
-                <option value="1.8">Search by ID</option>
-                <option value="1.9">Search by Item</option>
+                <option value="searchbyid">Search by ID</option>
+                <option value="searchbyitem">Search by Item</option>
             </select>
-            <div id="customequipment">
+            <div id="">
                 <div class="padding">
-                    Enter the text id of an item (for example <i>stone</i> or <i>iron_sword</i>) into the appropriate slots. You can enter an arbitrary item for the head or hand, but the other slots must contain an appropriate item.
-
-                    <input type="text" class="equipment" name="equipHandRight" placeholder="Item in right hand">
-                    <input type="text" class="equipment" id="equipHandLeft" name="equipHandLeft" placeholder="Item in left hand">
-
-                    <input type="text" class="equipment" name="equipShoes" placeholder="Shoes">
-                    <div class="colorfield" id="shoecolor"></div>
-
-                    <input type="text" class="equipment" name="equipLeggings" placeholder="Leggings">
-                    <div class="colorfield" id="leggingscolor"></div>
-
-                    <input type="text" class="equipment" name="equipChestplate" placeholder="Chestplate">
-                    <div class="colorfield" id="chestplatecolor"></div>
-
-                    <input type="text" class="equipment" name="equipHelmet" placeholder="Helmet">
-                    <div class="colorfield" id="helmetcolor"></div>
-                    </select>
+                    Enter the ID of the item you would like to find. (If you need help finding a item's ID, <a href=http://minecraft-ids.grahamedgecombe.com/">click here</a>.
+                    <input type="text" class="equipment" name="itemid" placeholder="Item ID">
 
 <h3>Armor Enchantments</h3>
             <label><input type="checkbox" name="protection">Protection</label><br>
